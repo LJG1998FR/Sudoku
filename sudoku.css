@@ -17,6 +17,15 @@ hr{
     display: flex;
     flex-wrap: wrap;
 }
+
+#board{
+    height:450px;
+}
+
+#digits{
+    height:50px;
+}
+
 .tile, .number{
     width:48px;
     height:48px;
@@ -27,14 +36,23 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
 .number{
     border: 1px solid black;
 }
 
-#board{
-    height:450px;
+.number-selected{
+    background-color: gray;
 }
 
-#digits{
-    height:50px;
+.tile-start{
+    background-color: whitesmoke;
+}
+
+.horizontal-line{
+    border-bottom: 1px solid black;
+}
+
+.vertical-line{
+    border-right: 1px solid black;
 }
